@@ -4,6 +4,11 @@
 
 .pokemonkaart {
   float: left;
+  width: 250px;
+  padding: 20px 15px;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
 }
 
 .achtergrond-geel {
@@ -15,11 +20,15 @@
 }
   
 h1 {
-  font-family: verdana;
+  font-size: 24px;
+  margin: 0 0 15px 0;
 }
 
 h4 {
-  color: gray;
+  font-size: 14px;
+  color:gray;
+  margin: 0 0 15px 0;
+  font-weight: bold;
 }
 
 img {
@@ -27,11 +36,13 @@ img {
 }
 
 .type1 {
-  font-weight:bold;
   background-color:yellow;
-  padding: 4px 12px;
-  border-radius: 15px;
-  margin: 8px 0;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0;
 }
   
 p {
