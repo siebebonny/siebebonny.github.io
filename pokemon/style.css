@@ -3,12 +3,15 @@
 }
 
 .pokemonkaart {
-
+  float: left;
+}
 
 .achtergrond-geel {
+  background-color: yellow; opacity: 0.4;
 }
   
 .achtergrond-groen {
+  background-color: green; opacity: 0.4;
 }
   
 h1 {
@@ -16,11 +19,11 @@ h1 {
 }
 
 h4 {
-  font-family: verdana;
+  color: gray;
 }
 
 img {
-  font-family: verdana;
+  width: 215px;
 }
 
 .type1 {
